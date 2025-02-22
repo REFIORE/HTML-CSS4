@@ -61,8 +61,8 @@
     justify-content: center;
 }
 
-.main__card-date:before {
-    content: none;
+.main__card-date::before {
+    content: '';
     background-color: #D7D7D7;
     width: 0.1875rem;
     height: 0.1875rem;
@@ -72,7 +72,7 @@
 }
 
 .main__card-date::after {
-    content: none;
+    content: '';
     background-color: #D7D7D7;
     width: 0.1875rem;
     height: 0.1875rem;
