@@ -26,7 +26,7 @@
 }
 
 .header__search {
-    background-image: "Search.svg";
+    background-image: "media/svg/Search.svg";
     box-sizing: border-box;
     background-size: cover;
     border: none;
@@ -49,5 +49,28 @@
     width: 0;
     visibility: hidden;
     outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.header__bottom {
+    border-bottom-style: solid  0.05rem #E9E9E9;
+    display: flex;
+    justify-content: center;
+    height: 3.20rem;
+    width: 100%;
+    font-weight: 500;
+}
+
+.header__select {
+    cursor: default;
+    box-sizing: border-box;
+    margin-right: 1.8rem;
+}
+
+.header__select-body {
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
     transition: 0.3s ease-in-out;
 }
