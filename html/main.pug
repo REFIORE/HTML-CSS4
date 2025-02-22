@@ -1,0 +1,23 @@
+mixin topic-card(type, topic, image)
+  .main__card
+    .main__card-img
+      img.main__card-picture(src=image alt="Изображения")
+    .main__card-type=type 
+    .main__card-topic=topic
+    .main__card-user
+      span.main__card-author Autor
+      span.main__card-date Date
+      span.main__card-views Views
+    .main__card-description Text
+
+main
+  .main
+    +topic-card('Lifestyle', 'The look: Perfect Balance', '../media/png/1.png')
+    +topic-card('Style', 'The look: Perfect Balance', '../media/png/2.png')
+    +topic-card('Lifestyle', 'Fun Things to Do in Rome', '../media/png/3.png')
+    +topic-card('Lifestyle', 'The look: Perfect Balance', '../media/png/4.png')
+    +topic-card('Lifestyle', 'The look: Perfect Balance', '../media/png/5.png')
+    +topic-card('Lifestyle', 'The look: Perfect Balance', '../media/png/6.png')
+    +topic-card('Lifestyle', 'The look: Perfect Balance', '../media/png/7.png')
+    +topic-card('Lifestyle', 'The look: Perfect Balance', '../media/png/8.png')
+    +topic-card('Lifestyle', 'The look: Perfect Balance', '../media/png/9.png')
