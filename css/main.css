@@ -42,3 +42,41 @@
     line-height: 1.125rem;
     color: #929292;
 }
+
+.main__card-user {
+    font-size: 0.625rem;
+    color: #9B9B9B;
+    display: flex;
+    margin-bottom: 0.625rem;
+}
+
+.main__card-author {
+    font-weight: 500;
+    color: #000;
+    margin-right: 0.3125rem;
+}
+
+.main__card-date {
+    display: flex;
+    justify-content: center;
+}
+
+.main__card-date:before {
+    content: none;
+    background-color: #D7D7D7;
+    width: 0.1875rem;
+    height: 0.1875rem;
+    border-radius: 50%;
+    display: block;
+    margin-right: 0.3125rem;
+}
+
+.main__card-date::after {
+    content: none;
+    background-color: #D7D7D7;
+    width: 0.1875rem;
+    height: 0.1875rem;
+    border-radius: 50%;
+    display: block;
+    margin-left: 0.3125rem;
+}
